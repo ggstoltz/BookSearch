@@ -1,6 +1,5 @@
 import React from 'react';
-
-
+import './HeroSection.css';
 
 function HeroSection() {
   return (
@@ -8,6 +7,7 @@ function HeroSection() {
       
       <h1>Book Search</h1>
       <p>What are you looking for?</p>
+      <img className='hero' src='./public/images/books.jpg' alt='books on shelf' />
       
     </div>
   );

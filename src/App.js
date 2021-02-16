@@ -2,23 +2,19 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import{ BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
-import Home from '.components/pages/Home';
-import Saved from '.components/pages/Saved';
-
-
-
+import Home from './components/pages/Home';
+import Saved from './components/pages/Saved';
 
 function App() {
   return (
     <>
-    <Router>
+      <Router>
       <Navbar />
         <Switch>
-          
           <Route path='/' exact component={Home} />
           <Route path='/saved' component={Saved} />
         </Switch>
-    </Router>
+      </Router>
     </>
   );
 }
