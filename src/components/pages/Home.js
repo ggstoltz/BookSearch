@@ -1,17 +1,17 @@
 import React from 'react';
 import'../../App.css';
 import HeroSection from '../HeroSection';
-import Searchbar from '../Searchbar';
-import SearchPage from '../SearchPage';
-import Results from '../ResultsList';
+import SearchBar from '../SearchBar';
+import SearchPage from '../Searchpage';
+import ResultsList from '../ResultsList';
 
 function Home () {
     return (
         <>
         <HeroSection />
-        <Searchbar />
+        <SearchBar />
         <SearchPage />
-        <Results />
+        <ResultsList />
         </>
     );
 }
