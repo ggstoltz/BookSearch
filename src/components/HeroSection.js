@@ -8,7 +8,7 @@ function HeroSection() {
       
       <h1>Book Search</h1>
       <p>What are you looking for?</p>
-      <img className='hero' src='./images/books.jpg' alt='books on shelf' />
+      <img className='hero' src='./images/book.jpg' alt='books on shelf' />
       
     </div>
   );
